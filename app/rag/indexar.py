@@ -39,14 +39,27 @@ def generar_embeddings(textos: list[str]) -> np.ndarray:
     return vectores / np.linalg.norm(vectores, axis=1, keepdims=True)
 
 
+def fragmentos(ficha: dict) -> list[str]:
+    """La ficha completa más un fragmento por sección (mejora la búsqueda con preguntas cortas)."""
+    textos = [f"{ficha['titulo']}. {ficha['cuerpo']}"]
+    for seccion in re.split(r"\n(?=##\s)", ficha["cuerpo"]):
+        if seccion.strip():
+            textos.append(f"{ficha['titulo']}. {seccion.strip()}")
+    return textos
+
+
 def indexar() -> int:
     fichas = leer_fichas()
     if not fichas:
         raise SystemExit("No hay fichas en fichas/")
-    textos = [f"{f['titulo']}. {f['cuerpo']}" for f in fichas]
+    textos, indice_ficha = [], []
+    for i, f in enumerate(fichas):
+        frags = fragmentos(f)
+        textos += frags
+        indice_ficha += [i] * len(frags)
     vectores = generar_embeddings(textos)
     config.DIR_DATA.mkdir(exist_ok=True)
-    np.savez(config.RUTA_INDICE, vectores=vectores)
+    np.savez(config.RUTA_INDICE, vectores=vectores, ficha_idx=np.array(indice_ficha))
     config.RUTA_FICHAS_JSON.write_text(json.dumps(fichas, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Indexadas {len(fichas)} fichas -> {config.RUTA_INDICE.name}, {config.RUTA_FICHAS_JSON.name}")
     return len(fichas)

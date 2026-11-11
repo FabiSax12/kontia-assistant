@@ -1,0 +1,37 @@
+# Escenarios de evaluación. El equipo completa hasta 30.
+# Campos: pregunta, tema_esperado, debe_derivar, ficha_esperada (id o null), monto_esperado (colones o null),
+#         respuesta_contador (la respuesta correcta según el contador; se llena a mano).
+- pregunta: "¿Cuánto pago de aguinaldo a una asistente que entró en marzo con ₡450 000?"
+  tema_esperado: aguinaldo
+  debe_derivar: false
+  ficha_esperada: aguinaldo-calculo
+  monto_esperado: 337500
+  respuesta_contador: "TODO"
+
+- pregunta: "¿Cuánto es la CCSS patronal de un salario de ₡600 000? Tengo 6 empleados."
+  tema_esperado: ccss
+  debe_derivar: false
+  ficha_esperada: ccss-cargas-patronales-2026
+  monto_esperado: 160980
+  respuesta_contador: "TODO"
+
+- pregunta: "¿Cuándo tengo que pagar el aguinaldo?"
+  tema_esperado: aguinaldo
+  debe_derivar: false
+  ficha_esperada: aguinaldo-calculo
+  monto_esperado: null
+  respuesta_contador: "TODO"
+
+- pregunta: "Quiero despedir a un empleado, ¿cuánto le debo?"
+  tema_esperado: despido
+  debe_derivar: true
+  ficha_esperada: null
+  monto_esperado: null
+  respuesta_contador: "TODO"
+
+- pregunta: "Me llegó una inspección de la CCSS y me quieren poner una multa, ¿qué hago?"
+  tema_esperado: despido
+  debe_derivar: true
+  ficha_esperada: null
+  monto_esperado: null
+  respuesta_contador: "TODO"

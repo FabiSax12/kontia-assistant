@@ -15,14 +15,14 @@ def _modelo():
 
 
 @lru_cache(maxsize=1)
-def _cargar_indice() -> tuple[np.ndarray, list[dict]]:
+def _cargar_indice() -> tuple[np.ndarray, np.ndarray, list[dict]]:
     if not config.RUTA_INDICE.exists() or not config.RUTA_FICHAS_JSON.exists():
         from app.rag.indexar import indexar
 
         indexar()
-    vectores = np.load(config.RUTA_INDICE)["vectores"]
+    datos = np.load(config.RUTA_INDICE)
     fichas = json.loads(config.RUTA_FICHAS_JSON.read_text(encoding="utf-8"))
-    return vectores, fichas
+    return datos["vectores"], datos["ficha_idx"], fichas
 
 
 def recargar_indice() -> None:
@@ -34,10 +34,12 @@ def buscar(consulta: str, tema: str | None = None, k: int = config.TOP_K) -> lis
 
     Si 'tema' coincide con alguna ficha, filtra por él; si ninguna ficha tiene ese tema, busca en todas.
     """
-    vectores, fichas = _cargar_indice()
+    vectores, ficha_idx, fichas = _cargar_indice()
     vector = np.array(list(_modelo().embed([consulta])), dtype=np.float32)[0]
     vector /= np.linalg.norm(vector)
-    scores = vectores @ vector
+    por_fragmento = vectores @ vector
+    # puntaje de cada ficha = el mejor de sus fragmentos
+    scores = np.array([por_fragmento[ficha_idx == i].max() for i in range(len(fichas))])
 
     indices = list(range(len(fichas)))
     if tema:
