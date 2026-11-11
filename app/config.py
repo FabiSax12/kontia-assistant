@@ -66,7 +66,6 @@ PRECIO_USD_MILLON_ENTRADA = 0.30
 PRECIO_USD_MILLON_SALIDA = 2.50
 
 CONTACTO_HUMANO = "contador@kontia.example (TODO: poner el contacto real del equipo)"
-AVISO_FIJO = "Esto es orientación general y no sustituye la revisión de un contador."
 
 PALABRAS_SENSIBLES = [
     "despido", "despedir", "despedí", "liquidación", "liquidacion", "cesantía", "cesantia",

@@ -39,7 +39,7 @@ MENSAJES_DERIVACION = {
 
 def _derivar(motivo: str) -> dict:
     return {
-        "respuesta": f"{MENSAJES_DERIVACION[motivo]}\n\n{config.AVISO_FIJO}",
+        "respuesta": MENSAJES_DERIVACION[motivo],
         "ficha": None, "calculo": None, "siguiente_paso": "Pedir revisión de un contador.",
         "derivado": True, "motivo_derivacion": motivo,
     }

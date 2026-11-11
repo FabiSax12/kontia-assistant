@@ -53,7 +53,7 @@ async def chat(entrada: ChatEntrada):
     except asyncio.TimeoutError:
         return {
             "interaction_id": None,
-            "respuesta": f"{orquestador.MENSAJES_DERIVACION['timeout']}\n\n{config.AVISO_FIJO}",
+            "respuesta": orquestador.MENSAJES_DERIVACION['timeout'],
             "ficha": None, "calculo": None, "siguiente_paso": "Pedir revisión de un contador.",
             "derivado": True, "motivo_derivacion": "timeout",
         }

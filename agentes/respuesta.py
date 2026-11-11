@@ -85,8 +85,7 @@ def armar_mensaje(respuesta: str, siguiente_paso: str, ficha: dict) -> str:
     return (
         f"{respuesta}\n\n"
         f"Siguiente paso: {siguiente_paso}\n"
-        f"Fuente: {ficha['titulo']} (revisada el {ficha['fecha_revision']}). {ficha['fuente_oficial']}\n\n"
-        f"{config.AVISO_FIJO}"
+        f"Fuente: {ficha['titulo']} (revisada el {ficha['fecha_revision']}). {ficha['fuente_oficial']}"
     )
 
 
