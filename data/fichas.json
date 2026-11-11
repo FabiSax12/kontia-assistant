@@ -1,0 +1,32 @@
+[
+  {
+    "id": "aguinaldo-calculo",
+    "titulo": "Cálculo y pago del aguinaldo",
+    "tema": "aguinaldo",
+    "sensible": false,
+    "fuente_oficial": "TODO enlace oficial del MTSS sobre aguinaldo",
+    "fecha_revision": "2026-01-01",
+    "revisado_por": "PENDIENTE",
+    "cuerpo": "## Qué es\nEl aguinaldo es un pago anual obligatorio que el patrono le da a cada persona trabajadora. Cubre el periodo del 1 de diciembre del año anterior al 30 de noviembre.\n\n## A quién aplica\nA toda persona trabajadora con relación laboral en el periodo. Si trabajó solo una parte del periodo, recibe la parte proporcional.\n\n## Cómo se calcula / cuánto\nSe calcula con el salario mensual y los meses trabajados: meses completos más los días residuales (cada día se toma como salario dividido entre 30). Con el periodo completo, el aguinaldo equivale a un salario mensual. El aguinaldo no paga cargas sociales.\n\n## Fecha límite\nSe paga a más tardar el 20 de diciembre.\n\n## Siguiente paso\nConfirmar la fecha de ingreso y el salario mensual de cada persona, calcular el monto y dejar el pago listo antes del 20 de diciembre.\n\n## Errores comunes\n- Pagar el monto completo a quien no trabajó todo el periodo.\n- Calcular el periodo con el año calendario en lugar del 1 de diciembre al 30 de noviembre.\n- Descontar cargas sociales del aguinaldo."
+  },
+  {
+    "id": "ccss-cargas-patronales-2026",
+    "titulo": "Cargas sociales de la CCSS 2026",
+    "tema": "ccss",
+    "sensible": false,
+    "fuente_oficial": "TODO enlace oficial de la CCSS sobre cuotas obrero-patronales",
+    "fecha_revision": "2026-01-01",
+    "revisado_por": "PENDIENTE",
+    "cuerpo": "## Qué es\nLas cargas sociales son los porcentajes del salario que el patrono y la persona trabajadora aportan a la CCSS.\n\n## A quién aplica\nA todo patrono con personas trabajadoras en planilla.\n\n## Cómo se calcula / cuánto\n- Cuota patronal 2026: 26.83 % del salario bruto.\n- Si el patrono tiene menos de 5 trabajadores, la cuota patronal es 25.33 %, porque no paga INA.\n- Cuota obrera 2026: 10.83 % del salario bruto, que se rebaja a la persona trabajadora.\n- El riesgo del trabajo (INS) es aparte: 2 % por defecto, y varía según la actividad.\n\n## Fecha límite\nTODO confirmar con la CCSS la fecha de pago de la planilla.\n\n## Siguiente paso\nRevisar la planilla del mes, calcular patronal y obrera sobre el salario bruto y confirmar la fecha de pago con la CCSS.\n\n## Errores comunes\n- Usar la tasa patronal completa cuando el patrono tiene menos de 5 trabajadores.\n- Olvidar que el INS es un cobro aparte de la CCSS."
+  },
+  {
+    "id": "despido-sensible",
+    "titulo": "Despido y liquidación (caso sensible)",
+    "tema": "despido",
+    "sensible": true,
+    "fuente_oficial": "TODO enlace oficial del MTSS sobre despido y liquidación",
+    "fecha_revision": "2026-01-01",
+    "revisado_por": "PENDIENTE",
+    "cuerpo": "## Qué es\nTerminar una relación laboral (despido, liquidación, cesantía) tiene consecuencias legales y económicas que dependen de cada caso.\n\n## A quién aplica\nA cualquier patrono que piense terminar una relación laboral.\n\n## Cómo se calcula / cuánto\nNo se calcula en el asistente. Cada caso se deriva a un contador o abogado laboral.\n\n## Fecha límite\nTODO confirmar con un profesional según el caso.\n\n## Siguiente paso\nHablar con un contador o abogado laboral antes de tomar cualquier decisión o comunicarla a la persona trabajadora.\n\n## Errores comunes\n- Despedir sin asesoría previa.\n- Estimar la liquidación por cuenta propia."
+  }
+]
