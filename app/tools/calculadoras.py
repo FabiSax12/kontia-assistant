@@ -71,6 +71,7 @@ def calcular_aguinaldo(
         "periodo_fin": fin_periodo.isoformat(),
         "fecha_limite": date(anio, config.AGUINALDO_MES_LIMITE, config.AGUINALDO_DIA_LIMITE).isoformat(),
         "paga_cargas_sociales": False,
+        "salario_mensual": _redondear(salario),
     }
 
 
@@ -110,6 +111,7 @@ def calcular_costo_empleado(
         "ins": _redondear(ins),
         "costo_total": _redondear(salario_total) + _redondear(aguinaldo) + _redondear(ccss) + _redondear(ins),
         "meses": meses,
+        "salario_mensual": _redondear(salario),
     }
 
 
