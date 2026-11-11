@@ -4,29 +4,299 @@
     "titulo": "Cálculo y pago del aguinaldo",
     "tema": "aguinaldo",
     "sensible": false,
-    "fuente_oficial": "TODO enlace oficial del MTSS sobre aguinaldo",
-    "fecha_revision": "2026-01-01",
-    "revisado_por": "PENDIENTE",
-    "cuerpo": "## Qué es\nEl aguinaldo es un pago anual obligatorio que el patrono le da a cada persona trabajadora. Cubre el periodo del 1 de diciembre del año anterior al 30 de noviembre.\n\n## A quién aplica\nA toda persona trabajadora con relación laboral en el periodo. Si trabajó solo una parte del periodo, recibe la parte proporcional.\n\n## Cómo se calcula / cuánto\nSe calcula con el salario mensual y los meses trabajados: meses completos más los días residuales (cada día se toma como salario dividido entre 30). Con el periodo completo, el aguinaldo equivale a un salario mensual. El aguinaldo no paga cargas sociales.\n\n## Fecha límite\nSe paga a más tardar el 20 de diciembre.\n\n## Siguiente paso\nConfirmar la fecha de ingreso y el salario mensual de cada persona, calcular el monto y dejar el pago listo antes del 20 de diciembre.\n\n## Errores comunes\n- Pagar el monto completo a quien no trabajó todo el periodo.\n- Calcular el periodo con el año calendario en lugar del 1 de diciembre al 30 de noviembre.\n- Descontar cargas sociales del aguinaldo."
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/index.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl aguinaldo es un pago anual obligatorio que el patrono le da a cada persona trabajadora. Cubre el periodo del 1 de diciembre del año anterior al 30 de noviembre.\n\n## A quién aplica\nA toda persona trabajadora con relación laboral en el periodo. Si trabajó solo una parte del periodo, recibe la parte proporcional.\n\n## Cómo se calcula / cuánto\nSe suman los salarios ordinarios y extraordinarios (incluidas las horas extra) del periodo y se divide entre 12. Con el periodo completo y salario fijo, equivale a un salario mensual. Con meses incompletos, se toman los meses completos más los días residuales (cada día como salario dividido entre 30). El aguinaldo no paga cargas sociales.\n\n## Fecha límite\nSe paga a más tardar el 20 de diciembre.\n\n## Siguiente paso\nConfirmar la fecha de ingreso y los salarios de cada persona, calcular el monto y dejar el pago listo antes del 20 de diciembre.\n\n## Errores comunes\n- Pagar el monto completo a quien no trabajó el periodo completo.\n- Calcular el periodo con el año calendario en lugar del 1 de diciembre al 30 de noviembre.\n- Olvidar las horas extra y comisiones en la base.\n- Descontar cargas sociales del aguinaldo."
   },
   {
     "id": "ccss-cargas-patronales-2026",
     "titulo": "Cargas sociales de la CCSS 2026",
     "tema": "ccss",
     "sensible": false,
-    "fuente_oficial": "TODO enlace oficial de la CCSS sobre cuotas obrero-patronales",
-    "fecha_revision": "2026-01-01",
-    "revisado_por": "PENDIENTE",
-    "cuerpo": "## Qué es\nLas cargas sociales son los porcentajes del salario que el patrono y la persona trabajadora aportan a la CCSS.\n\n## A quién aplica\nA todo patrono con personas trabajadoras en planilla.\n\n## Cómo se calcula / cuánto\n- Cuota patronal 2026: 26.83 % del salario bruto.\n- Si el patrono tiene menos de 5 trabajadores, la cuota patronal es 25.33 %, porque no paga INA.\n- Cuota obrera 2026: 10.83 % del salario bruto, que se rebaja a la persona trabajadora.\n- El riesgo del trabajo (INS) es aparte: 2 % por defecto, y varía según la actividad.\n\n## Fecha límite\nTODO confirmar con la CCSS la fecha de pago de la planilla.\n\n## Siguiente paso\nRevisar la planilla del mes, calcular patronal y obrera sobre el salario bruto y confirmar la fecha de pago con la CCSS.\n\n## Errores comunes\n- Usar la tasa patronal completa cuando el patrono tiene menos de 5 trabajadores.\n- Olvidar que el INS es un cobro aparte de la CCSS."
+    "fuente_oficial": "https://www.ccss.sa.cr/patronos",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nLas cargas sociales son los porcentajes del salario que el patrono y la persona trabajadora aportan a la CCSS.\n\n## A quién aplica\nA cada patrono con personas trabajadoras en planilla.\n\n## Cómo se calcula / cuánto\n- Cuota patronal 2026: 26.83 % del salario bruto.\n- Si el patrono tiene menos de 5 trabajadores, la cuota patronal es 25.33 %, porque no paga INA.\n- Cuota obrera 2026: 10.83 % del salario bruto, que se rebaja a la persona trabajadora.\n- El seguro de riesgos del trabajo (INS) es aparte de la CCSS: su prima depende de la actividad y se consulta con el INS.\n\n## Fecha límite\nLa planilla se presenta del 26 de cada mes hasta el cuarto día hábil del mes siguiente, y la factura se paga entre el 16 y el 20 de ese mes (el día exacto lo indica la Oficina Virtual de la CCSS).\n\n## Siguiente paso\nRevisar la planilla del mes, calcular patronal y obrera sobre el salario bruto y confirmar en la Oficina Virtual la fecha de pago.\n\n## Errores comunes\n- Usar la tasa patronal completa cuando el patrono tiene menos de 5 trabajadores.\n- Olvidar que el INS es un cobro aparte de la CCSS.\n- Calcular las cuotas sobre el salario neto en lugar del bruto."
+  },
+  {
+    "id": "ccss-cuenta-propia",
+    "titulo": "Seguro de la persona trabajadora por cuenta propia en la CCSS",
+    "tema": "ccss",
+    "sensible": false,
+    "fuente_oficial": "https://www.ccss.sa.cr/tramites",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nUna persona que trabaja por cuenta propia, incluido el dueño de una PYME sin planilla, debe afiliarse a la CCSS como persona trabajadora por cuenta propia para tener seguro de salud y pensión.\n\n## A quién aplica\nA personas con ingresos por cuenta propia, como profesionales liberales, comerciantes o dueños de un negocio unipersonal.\n\n## Cómo se calcula / cuánto\nLa cuota se calcula sobre el ingreso neto declarado, con porcentajes y una base mínima que fija la CCSS. Esta ficha no trae cifras: la cuota exacta se consulta en la calculadora o con la CCSS.\n\n## Fecha límite\nLos pagos son mensuales y siguen el calendario de la CCSS; consultar la fecha en la Oficina Virtual.\n\n## Siguiente paso\nEntrar al catálogo de trámites de la CCSS y buscar Afiliación de Persona Trabajadora por Cuenta Propia. Cuando el ingreso cambia, se hace el ajuste de ingresos netos cotizables.\n\n## Errores comunes\n- No actualizar el ingreso declarado cuando el negocio crece o baja.\n- Dejar atrasada la cuota y perder el derecho a servicios.\n- Mezclar la afiliación del dueño con la planilla de las personas empleadas."
+  },
+  {
+    "id": "ccss-incapacidades",
+    "titulo": "Incapacidades por enfermedad: quién paga y cómo registrarlas",
+    "tema": "ccss",
+    "sensible": false,
+    "fuente_oficial": "https://www.ccss.sa.cr/tramites",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nCuando una persona trabajadora tiene una incapacidad por enfermedad, parte del salario lo paga el patrono y parte la CCSS por medio de un subsidio.\n\n## A quién aplica\nA patronos con personas trabajadoras aseguradas que presentan una incapacidad de la CCSS.\n\n## Cómo se calcula / cuánto\nLos primeros tres días los paga el patrono, a razón del 50 % del salario diario, y ese pago no se reporta en la planilla. Desde el cuarto día la CCSS paga el subsidio, que es de alrededor del 60 % del salario. El patrono puede completar el resto, pero no está obligado. Los días incapacitados se rebajan del salario reportado en planilla.\n\n## Fecha límite\nEl derecho de la persona trabajadora a cobrar el subsidio prescribe a los seis meses de otorgada la incapacidad.\n\n## Siguiente paso\nRecibir el comprobante de la incapacidad, registrarla en la planilla de la Oficina Virtual (Movimientos, Incapacidades) con tipo y fechas, y pagar el 50 % de los tres primeros días.\n\n## Errores comunes\n- Reportar el salario completo en la planilla del mes de la incapacidad.\n- No pagar los tres primeros días.\n- Registrar la incapacidad fuera del periodo de presentación de la planilla."
+  },
+  {
+    "id": "ccss-inscripcion-patrono",
+    "titulo": "Inscripción de un patrono en la CCSS",
+    "tema": "ccss",
+    "sensible": false,
+    "fuente_oficial": "https://www.ccss.sa.cr/patronos",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nCada patrono debe inscribirse en la CCSS para poder reportar a sus trabajadores y pagar las cuotas. Hay trámites separados para patrono físico, patrono jurídico y servicio doméstico.\n\n## A quién aplica\nA quien empieza una actividad con personas trabajadoras o compra un negocio con personal.\n\n## Cómo se calcula / cuánto\nNo tiene costo que esta ficha pueda confirmar. Se piden al menos el nombre del negocio, la actividad, la dirección y los teléfonos. Una sociedad debe aportar copia de la escritura de constitución y de la cédula jurídica.\n\n## Fecha límite\nDentro de los primeros ocho días hábiles después de iniciar la actividad o de adquirir el negocio.\n\n## Siguiente paso\nEntrar al catálogo de trámites de la CCSS, elegir la inscripción de patrono físico o jurídico y presentar los datos. Al aprobarse, llega al correo el usuario y un enlace de 72 horas para crear la contraseña de la Oficina Virtual.\n\n## Errores comunes\n- Contratar a la primera persona sin haberse inscrito.\n- Dejar vencer el enlace de contraseña de 72 horas.\n- Usar el trámite de patrono físico para una sociedad."
+  },
+  {
+    "id": "ccss-pago-planilla-fechas",
+    "titulo": "Fechas de pago de la planilla de la CCSS en 2026",
+    "tema": "ccss",
+    "sensible": false,
+    "fuente_oficial": "https://www.ccss.sa.cr/patronos",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nDespués de facturar la planilla, la CCSS asigna tres días de pago dentro del rango del 16 al 20 del mes siguiente.\n\n## A quién aplica\nA cada patrono que presenta planilla.\n\n## Cómo se calcula / cuánto\nEl monto es el de la factura generada. Se puede pagar en bancos, cooperativas, Correos de Costa Rica y otros centros de recaudación; los centros de recaudación reciben cuotas hasta con 59 días de vencidas.\n\n## Fecha límite\nCalendario 2026 según la CCSS: la planilla de octubre se paga el 18, 19 o 20 de noviembre; la de noviembre, el 16, 17 o 18 de diciembre; la de diciembre, el 18, 19 o 20 de enero de 2027. Las fechas pueden ajustarse por feriados o disposiciones administrativas.\n\n## Siguiente paso\nAnotar las fechas de pago del mes en el calendario y confirmarlas en la Oficina Virtual antes de pagar.\n\n## Errores comunes\n- Pagar después del día asignado.\n- Suponer que el pago se hace el mismo día que se presenta la planilla.\n- No revisar ajustes por feriados."
+  },
+  {
+    "id": "ccss-planilla-presentacion",
+    "titulo": "Cómo presentar la planilla de la CCSS cada mes",
+    "tema": "ccss",
+    "sensible": false,
+    "fuente_oficial": "https://www.ccss.sa.cr/patronos",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nLa planilla es el reporte mensual de salarios de cada persona trabajadora que el patrono presenta a la CCSS. Con ella se genera la factura de cuotas obrero-patronales.\n\n## A quién aplica\nA cada patrono inscrito en la CCSS, aunque en el mes no haya movimientos.\n\n## Cómo se calcula / cuánto\nEl sistema calcula las cuotas con los salarios reportados. Los pasos son presentar, modificar si hace falta y facturar. Si no se presenta a tiempo hay un recargo de 2 % sobre el seguro de salud y 2 % sobre el IVM. Si se presenta pero no se factura, el sistema factura de oficio al quinto día hábil.\n\n## Fecha límite\nEn la Oficina Virtual, del 26 de cada mes hasta el cuarto día hábil del mes siguiente. Con el sistema de Grandes Clientes, hasta el tercer día hábil.\n\n## Siguiente paso\nEntrar a la Oficina Virtual de la CCSS, cargar o digitar la planilla del mes, revisar altas, bajas e incapacidades y facturar antes de que venza el plazo.\n\n## Errores comunes\n- Dejar la planilla sin facturar y esperar a que el sistema lo haga de oficio.\n- No reportar los ingresos y salidas de personal del mes.\n- Confundir el plazo de presentar con el plazo de pagar."
+  },
+  {
+    "id": "ccss-servicio-domestico",
+    "titulo": "Inscripción patronal de servicio doméstico en la CCSS",
+    "tema": "ccss",
+    "sensible": false,
+    "fuente_oficial": "https://www.ccss.sa.cr/tramites",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nQuien contrata a una trabajadora doméstica también es patrono y debe inscribirse en la CCSS con el trámite de servicio doméstico.\n\n## A quién aplica\nA hogares y personas que emplean trabajo doméstico remunerado.\n\n## Cómo se calcula / cuánto\nLas cuotas dependen del salario reportado. Esta ficha no trae cifras; el salario mínimo de este oficio lo fija el MTSS y se consulta ahí.\n\n## Fecha límite\nSigue el mismo calendario mensual de planilla y pago de la CCSS.\n\n## Siguiente paso\nHacer el trámite de Inscripción o Reanudación Patronal Servicio Doméstico en el catálogo de la CCSS y reportar a la persona trabajadora en la planilla.\n\n## Errores comunes\n- Pensar que el trabajo doméstico no requiere seguro.\n- Pagar menos del salario mínimo del oficio."
+  },
+  {
+    "id": "demanda-sensible",
+    "titulo": "Demanda laboral o judicial (caso sensible)",
+    "tema": "despido",
+    "sensible": true,
+    "fuente_oficial": "https://www.poder-judicial.go.cr",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nUna demanda es un reclamo formal ante un juzgado. Una demanda laboral es la que presenta una persona trabajadora contra su patrono o al revés.\n\n## A quién aplica\nA patronos que reciben una demanda o piensan demandar.\n\n## Cómo se calcula / cuánto\nEl asistente no calcula montos en este tema. Cada caso se deriva.\n\n## Fecha límite\nNo hay un plazo general que el asistente pueda dar. Los plazos dependen del caso y pueden correr rápido, por eso se consulta cuanto antes.\n\n## Siguiente paso\nGuardar los documentos recibidos y consultar a un abogado laboral antes de responder.\n\n## Errores comunes\n- Dejar pasar los plazos de contestación.\n- Responder sin asesoría."
   },
   {
     "id": "despido-sensible",
-    "titulo": "Despido y liquidación (caso sensible)",
+    "titulo": "Despido (caso sensible)",
     "tema": "despido",
     "sensible": true,
-    "fuente_oficial": "TODO enlace oficial del MTSS sobre despido y liquidación",
-    "fecha_revision": "2026-01-01",
-    "revisado_por": "PENDIENTE",
-    "cuerpo": "## Qué es\nTerminar una relación laboral (despido, liquidación, cesantía) tiene consecuencias legales y económicas que dependen de cada caso.\n\n## A quién aplica\nA cualquier patrono que piense terminar una relación laboral.\n\n## Cómo se calcula / cuánto\nNo se calcula en el asistente. Cada caso se deriva a un contador o abogado laboral.\n\n## Fecha límite\nTODO confirmar con un profesional según el caso.\n\n## Siguiente paso\nHablar con un contador o abogado laboral antes de tomar cualquier decisión o comunicarla a la persona trabajadora.\n\n## Errores comunes\n- Despedir sin asesoría previa.\n- Estimar la liquidación por cuenta propia."
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/index.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nTerminar una relación laboral tiene consecuencias legales y económicas que dependen de cada caso.\n\n## A quién aplica\nA cualquier patrono que piense terminar una relación laboral.\n\n## Cómo se calcula / cuánto\nEl asistente no calcula montos en este tema. Cada caso se deriva.\n\n## Fecha límite\nNo hay un plazo general que el asistente pueda dar. Los plazos dependen del caso y pueden correr rápido, por eso se consulta cuanto antes.\n\n## Siguiente paso\nHablar con un contador o abogado laboral antes de tomar cualquier decisión o comunicarla a la persona trabajadora.\n\n## Errores comunes\n- Despedir sin asesoría previa.\n- Estimar el pago por cuenta propia."
+  },
+  {
+    "id": "embargo-sensible",
+    "titulo": "Embargo (caso sensible)",
+    "tema": "despido",
+    "sensible": true,
+    "fuente_oficial": "https://www.poder-judicial.go.cr",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nUn embargo es una orden que afecta bienes, cuentas o salarios por una deuda. Puede venir de un juzgado o de una institución cobradora.\n\n## A quién aplica\nA patronos o personas trabajadoras que reciben una orden de embargo.\n\n## Cómo se calcula / cuánto\nEl asistente no calcula montos en este tema. Cada caso se deriva.\n\n## Fecha límite\nNo hay un plazo general que el asistente pueda dar. Los plazos dependen del caso y pueden correr rápido, por eso se consulta cuanto antes.\n\n## Siguiente paso\nLlevar la orden a un abogado de inmediato para revisar quién la emite, sobre qué bienes recae y qué se puede hacer.\n\n## Errores comunes\n- Ignorar la orden.\n- Mover bienes sin asesoría."
+  },
+  {
+    "id": "feriados-pago",
+    "titulo": "Pago de los días feriados",
+    "tema": "otro",
+    "sensible": false,
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/index.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nLos feriados son días de descanso que pueden ser de pago obligatorio o de pago no obligatorio. La forma en que se paga el salario cambia las reglas.\n\n## A quién aplica\nA los patronos del sector privado.\n\n## Cómo se calcula / cuánto\nCon pago mensual o quincenal, los feriados se pagan, se trabajen o no. Si la persona trabaja el feriado, se suma un salario sencillo para llegar al pago doble. Con pago semanal fuera del comercio, solo se pagan los feriados de pago obligatorio aunque no se trabajen.\n\n## Fecha límite\nLos feriados de cada año los publica el MTSS en su calendario.\n\n## Siguiente paso\nRevisar el calendario de feriados del año y programar el pago doble de quienes trabajen esos días.\n\n## Errores comunes\n- Pagar un feriado trabajado como día normal.\n- Descontar el feriado a quien cobra mensual.\n- No distinguir feriados de pago obligatorio y no obligatorio."
+  },
+  {
+    "id": "hacienda-factura-electronica",
+    "titulo": "Factura electrónica y comprobantes electrónicos",
+    "tema": "hacienda",
+    "sensible": false,
+    "fuente_oficial": "https://www.hacienda.go.cr/docs/ComprobantesElectronicos-GeneralidadesyVersion4.4.marzo2025.pdf",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nUn comprobante electrónico es la factura en formato XML que respalda una venta o servicio y se transmite a Hacienda. Incluye factura, tiquete, nota de crédito, nota de débito, factura de compra, factura de exportación y recibo de pago.\n\n## A quién aplica\nA quienes están obligados a emitir comprobantes electrónicos según el Reglamento de Comprobantes Electrónicos (Decreto 44739-H) y a quienes reciben y confirman facturas.\n\n## Cómo se calcula / cuánto\nNo tiene fórmula. La estructura técnica vigente es la versión 4.4, con uso obligatorio desde el 1 de setiembre de 2025 según Hacienda. Hacienda ha ampliado plazos para algunos cambios, así que conviene confirmar la versión y sus plazos.\n\n## Fecha límite\nLa factura se emite al momento de la venta. La versión 4.4 era obligatoria desde el 1 de setiembre de 2025.\n\n## Siguiente paso\nConfirmar con el proveedor del sistema de facturación que usa la versión 4.4 y que los comprobantes recibidos se confirman en TRIBU-CR.\n\n## Errores comunes\n- Seguir emitiendo con la versión 4.3.\n- No confirmar los comprobantes recibidos y perder el crédito del IVA.\n- Emitir una factura equivocada sin la nota de crédito que corresponde."
+  },
+  {
+    "id": "hacienda-iva-declaracion",
+    "titulo": "Declaración mensual del IVA (formulario 150, antes D-104)",
+    "tema": "hacienda",
+    "sensible": false,
+    "fuente_oficial": "https://www.hacienda.go.cr/docs/BeneficiosPymes4.pdf",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl IVA se declara y se paga cada mes por las ventas y compras del mes anterior. En TRIBU-CR el formulario es el 150, que reemplaza al antiguo D-104.\n\n## A quién aplica\nA los contribuyentes del IVA, incluidas las microempresas y pequeñas empresas inscritas en el MEIC.\n\n## Cómo se calcula / cuánto\nSe resta el IVA que se pagó en compras (crédito fiscal) del IVA cobrado en ventas (débito fiscal). La diferencia es lo que se paga. Si el crédito es mayor, queda un saldo a favor. Las tarifas por tipo de bien o servicio no se incluyen en esta ficha.\n\n## Fecha límite\nEl día 15 de cada mes por las operaciones del mes anterior. Si el 15 cae en fin de semana o feriado, se corre; por ejemplo, el IVA de octubre de 2026 vence el 16 de noviembre. Se presenta aunque no haya impuesto por pagar.\n\n## Siguiente paso\nCerrar el mes, cuadrar las facturas electrónicas emitidas y recibidas, presentar el formulario 150 en la OVi de TRIBU-CR y pagar.\n\n## Errores comunes\n- No presentar la declaración cuando el resultado es cero o saldo a favor.\n- Incluir en el crédito facturas que no están en el sistema de Hacienda.\n- Usar el nombre D-104 y no encontrar el formulario."
+  },
+  {
+    "id": "hacienda-regimen-simplificado",
+    "titulo": "Régimen de tributación simplificada para pequeños negocios",
+    "tema": "hacienda",
+    "sensible": false,
+    "fuente_oficial": "https://www.hacienda.go.cr/docs/RequisitosParaOptarPorElRegimenTributacionSimplificada.pdf",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl régimen simplificado (o tributación simplificada) es una opción para negocios pequeños con pocos empleados, por ejemplo un negocio con 3 empleados que quiere saber si puede acogerse. Sus contribuyentes declaran IVA y renta con cuotas basadas en factores por actividad y con declaraciones trimestrales, en lugar de las mensuales.\n\n## A quién aplica\nA negocios que cumplen los requisitos: no más de cinco empleados sin contar al dueño o representante legal, un único establecimiento abierto al público, y límites de compras anuales y de activos fijos que se miden en salarios base.\n\n## Cómo se calcula / cuánto\nEl impuesto se calcula con los factores de renta e IVA según la actividad económica, que publica Hacienda. Esta ficha no trae esos factores ni los topes en colones.\n\n## Fecha límite\nLas declaraciones son trimestrales (formulario 153 para el IVA y formularios 104 y 105 de utilidades según sea persona física o jurídica). Las fechas se consultan en el calendario fiscal de Hacienda.\n\n## Siguiente paso\nRevisar los requisitos y los factores de la actividad en Hacienda y comparar con el régimen general antes de pedir el cambio.\n\n## Errores comunes\n- Pasarse de cinco empleados o abrir otro local y seguir en el régimen.\n- Confundir los formularios trimestrales con los mensuales del régimen general.\n- No llevar el registro auxiliar de compras y activos."
+  },
+  {
+    "id": "hacienda-renta-declaracion-anual",
+    "titulo": "Declaración anual del impuesto sobre la renta (utilidades)",
+    "tema": "hacienda",
+    "sensible": false,
+    "fuente_oficial": "https://www.hacienda.go.cr/docs/CP11-2026.pdf",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl impuesto sobre las utilidades (renta) grava los ingresos de actividades lucrativas. Se declara una vez al año por el periodo del 1 de enero al 31 de diciembre.\n\n## A quién aplica\nA personas físicas con actividad lucrativa (formulario 101) y a personas jurídicas (formulario 102). Las empresas que no son del régimen simplificado.\n\n## Cómo se calcula / cuánto\nLa renta se calcula con los ingresos menos los gastos deducibles y se aplica la tarifa que corresponde. Durante el año se hacen pagos parciales; si se hicieron, se evitan intereses al liquidar. Los ingresos del IVA deben coincidir con los de la renta. Esta ficha no trae tarifas.\n\n## Fecha límite\nDel 1 de enero al 15 de marzo del año siguiente, y si el 15 es fin de semana o feriado se corre (en 2026 fue el 16 de marzo). Las actividades con cierre fiscal en setiembre, como café y caña, lo hacen entre el 1 de octubre y el 15 de diciembre.\n\n## Siguiente paso\nPreparar los estados financieros y cuadrar con el IVA, presentar el formulario en la OVi de TRIBU-CR y pagar el saldo.\n\n## Errores comunes\n- Confundir el formulario 101 de persona física con el 102 de persona jurídica.\n- No hacer los pagos parciales y pagar intereses.\n- Declarar ingresos distintos a los del IVA."
+  },
+  {
+    "id": "hacienda-retenciones-salarios",
+    "titulo": "Retenciones de renta sobre salarios",
+    "tema": "hacienda",
+    "sensible": false,
+    "fuente_oficial": "https://www.hacienda.go.cr/docs/RetencionesSobreDietasGratificacionesPrestacionesServiciosPersonales.pdf",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl patrono es agente de retención: cuando el salario de una persona supera el tramo exento, retiene el impuesto sobre salarios y lo entrega a Hacienda.\n\n## A quién aplica\nA patronos que pagan salarios, jubilaciones y otros pagos laborales sujetos a retención.\n\n## Cómo se calcula / cuánto\nLos tramos y porcentajes de renta de salarios los ajusta Hacienda cada año. Esta ficha no trae tramos: se consultan en Hacienda. La retención se declara en el formulario 137 (persona física) o 138 (persona jurídica) de TRIBU-CR.\n\n## Fecha límite\nDentro de los primeros 15 días naturales del mes siguiente al mes en que se pagaron los salarios.\n\n## Siguiente paso\nCalcular la retención por persona con los tramos vigentes, presentar el formulario en la OVi y pagar lo retenido.\n\n## Errores comunes\n- Usar los tramos del año anterior.\n- Retener pero no entregar el dinero a Hacienda.\n- Confundir la retención de renta con la cuota obrera de la CCSS."
+  },
+  {
+    "id": "hacienda-rut-registros",
+    "titulo": "RUT actualizado y registros contables para Hacienda",
+    "tema": "hacienda",
+    "sensible": false,
+    "fuente_oficial": "https://www.hacienda.go.cr/docs/BeneficiosPymes4.pdf",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl Registro Único Tributario (RUT) es la ficha de datos del contribuyente en Hacienda. Debe estar al día. Además hay que llevar registros contables y guardar los comprobantes.\n\n## A quién aplica\nA los contribuyentes, en especial a las micro y pequeñas empresas.\n\n## Cómo se calcula / cuánto\nNo se calcula. Los registros contables dependen del régimen en que se esté inscrito.\n\n## Fecha límite\nLos comprobantes de ingresos, costos y gastos se conservan por 5 años.\n\n## Siguiente paso\nRevisar en TRIBU-CR que la actividad económica, la dirección y los datos de contacto estén correctos, y guardar los comprobantes por cinco años.\n\n## Errores comunes\n- Tener una actividad económica vieja en el RUT.\n- Botar facturas antes de los cinco años.\n- No registrar cambios de dirección o de representante."
+  },
+  {
+    "id": "hacienda-tribu-cr",
+    "titulo": "TRIBU-CR: el sistema de Hacienda para declarar y pagar impuestos",
+    "tema": "hacienda",
+    "sensible": false,
+    "fuente_oficial": "https://www.hacienda.go.cr/TRIBU-CR.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nTRIBU-CR es el sistema del Ministerio de Hacienda para gestionar impuestos en línea. Su oficina virtual (OVi) sirve para presentar declaraciones, pagar y actualizar datos del contribuyente.\n\n## A quién aplica\nA toda persona física o jurídica que declara impuestos, como IVA, renta y retenciones.\n\n## Cómo se calcula / cuánto\nNo tiene costo por usarlo. El pago se puede hacer en línea digitando una cuenta IBAN en la OVi, o en ventanilla en el BCR y en BAC. Las autorizaciones que existían en ATV se trasladan automáticamente a TRIBU-CR.\n\n## Fecha límite\nCada impuesto tiene su fecha. Cuando el día cae en fin de semana o feriado, Hacienda anuncia el plazo corrido, por ejemplo el IVA de octubre de 2026 vence el 16 de noviembre.\n\n## Siguiente paso\nEntrar a la OVi de TRIBU-CR, revisar que el RUT esté al día y usar las guías rápidas paso a paso que publica Hacienda.\n\n## Errores comunes\n- Seguir buscando los formularios con los nombres viejos de ATV.\n- No dar permiso a la persona contadora en el sistema.\n- Esperar al último día para pagar y toparse con una falla."
+  },
+  {
+    "id": "ins-accidente-laboral",
+    "titulo": "Qué hacer si una persona trabajadora sufre un accidente laboral",
+    "tema": "ins",
+    "sensible": false,
+    "fuente_oficial": "https://www.grupoins.com/media/rujlmpsb/rt-condiciones-generales-2025-v1-26-08-2025.pdf",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nCuando ocurre un accidente o una enfermedad por el trabajo, el patrono debe avisar al INS con el formulario de aviso de accidente o enfermedad. Con ese aviso se da la orden de atención médica.\n\n## A quién aplica\nA cada patrono con una persona trabajadora que sufre un riesgo del trabajo.\n\n## Cómo se calcula / cuánto\nNo se calcula aquí. El INS determina las prestaciones médicas y los pagos por incapacidad.\n\n## Fecha límite\nEl aviso se presenta dentro de los 8 días hábiles siguientes al accidente. Después de ese plazo pueden aplicar consecuencias del Código de Trabajo.\n\n## Siguiente paso\nAtender primero a la persona. Luego completar el aviso en RT Virtual o en el INS y guardar el comprobante.\n\n## Errores comunes\n- Avisar tarde.\n- Tratar el accidente como una incapacidad común de la CCSS.\n- No guardar el comprobante del aviso."
+  },
+  {
+    "id": "ins-planilla-mensual",
+    "titulo": "Planilla mensual de riesgos del trabajo en RT Virtual",
+    "tema": "ins",
+    "sensible": false,
+    "fuente_oficial": "https://www.grupoins.com/rt-virtual/presentacion-de-planillas-rt/",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nCada mes el patrono reporta al INS, en el sistema RT Virtual, los trabajadores, los días laborados y los salarios pagados. Con eso el INS calcula la prima.\n\n## A quién aplica\nA cada patrono con póliza de riesgos del trabajo.\n\n## Cómo se calcula / cuánto\nNo se calcula aquí. El INS toma los salarios reportados y aplica la tarifa de la póliza. Los montos deben coincidir con los reportados a la CCSS.\n\n## Fecha límite\nDiez días hábiles contados según el calendario de planillas de la póliza (se ve en RT Virtual). Si no hubo trabajadores en el periodo, igual se reporta con la opción de reportar sin trabajadores.\n\n## Siguiente paso\nEntrar a RT Virtual, abrir el periodo, declarar la planilla y revisar el calendario de la póliza. Las personas nuevas se incluyen antes de que empiecen a trabajar.\n\n## Errores comunes\n- Olvidar reportar un mes sin movimientos.\n- Dejar que el INS sustituya la planilla de oficio con datos viejos.\n- No incluir al trabajador nuevo antes de su primer día."
+  },
+  {
+    "id": "ins-renovacion-vigencia",
+    "titulo": "Vigencia y renovación de la póliza del INS",
+    "tema": "ins",
+    "sensible": false,
+    "fuente_oficial": "https://www.grupoins.com/media/rujlmpsb/rt-condiciones-generales-2025-v1-26-08-2025.pdf",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nLas pólizas permanentes de riesgos del trabajo duran un año y se renuevan automáticamente cada año si se paga la prima de renovación.\n\n## A quién aplica\nA patronos con póliza permanente de riesgos del trabajo del INS.\n\n## Cómo se calcula / cuánto\nLa tarifa de renovación considera la tarifa del último periodo y la siniestralidad acumulada de la póliza. Al terminar cada periodo el INS hace una liquidación para ajustar la prima con lo realmente reportado. No se dan porcentajes aquí; el INS informa la prima de renovación.\n\n## Fecha límite\nEn el aniversario de la póliza. Fecha exacta: en las condiciones particulares de cada póliza.\n\n## Siguiente paso\nRevisar en RT Virtual la fecha de aniversario, pagar la prima de renovación y confirmar que la póliza siga vigente.\n\n## Errores comunes\n- Dejar vencer la póliza por no pagar la prima de renovación.\n- Ignorar la liquidación del periodo, que puede dejar diferencias de prima a favor o en contra.\n- Tener más de una póliza para la misma actividad."
+  },
+  {
+    "id": "ins-riesgos-trabajo-poliza",
+    "titulo": "Póliza de riesgos del trabajo del INS",
+    "tema": "ins",
+    "sensible": false,
+    "fuente_oficial": "https://www.grupoins.com/seguros-para-personas/riesgos-del-trabajo/",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl seguro de riesgos del trabajo cubre a las personas trabajadoras en caso de accidente o enfermedad por el trabajo. Es obligatorio para cada patrono. Si no hay póliza, el patrono paga las prestaciones que el INS habría pagado.\n\n## A quién aplica\nA cada patrono con personas trabajadoras, incluido el dueño que se incluye en la planilla de la póliza.\n\n## Cómo se calcula / cuánto\nLa prima la fija el INS según la actividad económica, el monto de los salarios y la siniestralidad. Esta ficha no trae un porcentaje fijo: la cotización se pide en el sitio del INS o con un intermediario de seguros.\n\n## Fecha límite\nLa póliza debe estar vigente antes de que la persona empiece a trabajar. Las planillas se reportan cada mes.\n\n## Siguiente paso\nCotizar y emitir la póliza de riesgos del trabajo en el INS, registrarse en INS en Línea y reportar a las personas trabajadoras en RT Virtual.\n\n## Errores comunes\n- Empezar a trabajar sin póliza o sin reportar a la persona nueva.\n- Reportar en el INS salarios distintos a los de la CCSS.\n- No incluir al dueño que trabaja en el negocio."
+  },
+  {
+    "id": "inspeccion-ccss-mtss-sensible",
+    "titulo": "Inspección de la CCSS o del MTSS (caso sensible)",
+    "tema": "despido",
+    "sensible": true,
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/index.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nUna inspección es una visita o revisión de la CCSS o del MTSS para verificar que el patrono cumple sus obligaciones laborales y de seguridad social.\n\n## A quién aplica\nA patronos que reciben una visita o una citación de inspección.\n\n## Cómo se calcula / cuánto\nEl asistente no calcula montos en este tema. Cada caso se deriva.\n\n## Fecha límite\nNo hay un plazo general que el asistente pueda dar. Los plazos dependen del caso y pueden correr rápido, por eso se consulta cuanto antes.\n\n## Siguiente paso\nRecibir con respeto a la persona inspectora, no entregar ni firmar nada sin entenderlo y avisar de inmediato a un contador o abogado laboral.\n\n## Errores comunes\n- Negarse a atender la inspección.\n- Entregar documentos sin asesoría."
+  },
+  {
+    "id": "jornada-horas-extra",
+    "titulo": "Jornada de trabajo y pago de horas extra",
+    "tema": "otro",
+    "sensible": false,
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/index.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nLa jornada ordinaria es el máximo de horas que se puede trabajar al día y por semana. Las horas extra son las que pasan de ese máximo y se pagan con recargo.\n\n## A quién aplica\nA todas las personas trabajadoras salvo algunas jornadas especiales, como la de gerentes y personas sin fiscalización superior inmediata.\n\n## Cómo se calcula / cuánto\nLa jornada diurna es de 8 horas diarias y 48 semanales. La mixta es de 7 horas y 42 semanales. La nocturna es de 6 horas y 36 semanales. Las horas extra se pagan a tiempo y medio, es decir, la hora ordinaria más 50 %. Las horas extra no pueden ser permanentes.\n\n## Fecha límite\nLas horas extra se pagan en el siguiente pago de salario.\n\n## Siguiente paso\nLlevar un registro de horas trabajadas por persona y pagar las extra junto con el salario del periodo.\n\n## Errores comunes\n- Pagar las horas extra como horas sencillas.\n- Convertir las horas extra en una práctica permanente.\n- No contar las horas extra en el aguinaldo y las vacaciones."
+  },
+  {
+    "id": "liquidacion-cesantia-sensible",
+    "titulo": "Liquidación, preaviso y cesantía (caso sensible)",
+    "tema": "despido",
+    "sensible": true,
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/index.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nLa liquidación es el cierre de cuentas al terminar un contrato. Puede incluir preaviso, cesantía, vacaciones y aguinaldo proporcionales, según cómo termine la relación.\n\n## A quién aplica\nA patronos que terminan un contrato o reciben una renuncia.\n\n## Cómo se calcula / cuánto\nEl asistente no calcula montos en este tema. Cada caso se deriva.\n\n## Fecha límite\nNo hay un plazo general que el asistente pueda dar. Los plazos dependen del caso y pueden correr rápido, por eso se consulta cuanto antes.\n\n## Siguiente paso\nPedir a un contador o abogado laboral que revise el caso antes de calcular o pagar la liquidación.\n\n## Errores comunes\n- Calcular la liquidación sin revisar el motivo de la terminación.\n- Firmar un finiquito sin asesoría."
+  },
+  {
+    "id": "multas-sanciones-sensible",
+    "titulo": "Multas y sanciones (caso sensible)",
+    "tema": "despido",
+    "sensible": true,
+    "fuente_oficial": "https://www.ccss.sa.cr/patronos",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nLas instituciones pueden imponer multas, recargos o sanciones por incumplir obligaciones de planilla, impuestos o seguros.\n\n## A quién aplica\nA patronos y contribuyentes que reciben una notificación de multa o sanción.\n\n## Cómo se calcula / cuánto\nEl asistente no calcula montos en este tema. Cada caso se deriva.\n\n## Fecha límite\nNo hay un plazo general que el asistente pueda dar. Los plazos dependen del caso y pueden correr rápido, por eso se consulta cuanto antes.\n\n## Siguiente paso\nNo pagar ni responder sin entender de qué es. Llevar la notificación a un contador para ver qué institución la emite y cómo se impugna o se paga.\n\n## Errores comunes\n- Ignorar la notificación.\n- Pagar sin revisar si el cobro es correcto."
+  },
+  {
+    "id": "salario-escolar-privado",
+    "titulo": "Salario escolar en una empresa privada",
+    "tema": "otro",
+    "sensible": false,
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/index.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl salario escolar es un ahorro que se retiene del salario y se paga en enero. Es una figura principalmente del sector público. En el sector privado no hay una obligación general de pagarlo que esta ficha haya podido confirmar en una fuente oficial.\n\n## A quién aplica\nA patronos privados que lo pactaron en el contrato o por costumbre de la empresa, y a quienes se lo preguntan por comparar con el sector público.\n\n## Cómo se calcula / cuánto\nSi la empresa lo ofrece, el porcentaje y la forma de pago son los que dice el contrato. Esta ficha no trae un porcentaje porque no es general para el sector privado.\n\n## Fecha límite\nSi se pactó, se paga en enero. No confundir con el aguinaldo, que se paga a más tardar el 20 de diciembre.\n\n## Siguiente paso\nRevisar el contrato o la política interna. Si hay duda sobre si hay que pagarlo, consultar al MTSS o a un contador.\n\n## Errores comunes\n- Confundir el salario escolar con el aguinaldo.\n- Prometerlo sin dejarlo por escrito.\n- Suponer que es obligatorio igual que en el sector público."
+  },
+  {
+    "id": "salario-minimo-2026",
+    "titulo": "Salario mínimo del sector privado",
+    "tema": "otro",
+    "sensible": false,
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/salarios/salario_minimo.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nEl salario mínimo es lo menos que se le puede pagar legalmente a una persona trabajadora en una empresa privada. El Consejo Nacional de Salarios fija los salarios mínimos del sector privado según la ocupación. Pagar menos de ese mínimo no está permitido.\n\n## A quién aplica\nA los patronos del sector privado, por jornada o a destajo.\n\n## Cómo se calcula / cuánto\nLos montos por categoría se consultan en el panel de salarios mínimos del MTSS. Esta ficha no trae montos para 2026 porque la página oficial no los publica en texto. Para 2027, el MTSS anunció en octubre de 2026 un aumento de 1.70 % para el sector privado.\n\n## Fecha límite\nEl aumento de 2027 rige desde el 1 de enero de 2027.\n\n## Siguiente paso\nRevisar la categoría de cada puesto en el MTSS y confirmar que el salario pagado no sea menor al mínimo. Consultas: consulta.salarios@mtss.go.cr.\n\n## Errores comunes\n- Usar una lista de salarios de otro año.\n- Clasificar un puesto en la categoría equivocada.\n- Olvidar que el aumento aplica a todas las personas que ganan el mínimo."
+  },
+  {
+    "id": "vacaciones-calculo",
+    "titulo": "Vacaciones de las personas trabajadoras",
+    "tema": "otro",
+    "sensible": false,
+    "fuente_oficial": "https://www.mtss.go.cr/temas-laborales/index.html",
+    "fecha_revision": "2026-11-10",
+    "revisado_por": "Elaborada con IA (prototipo académico, sin revisión profesional)",
+    "cuerpo": "## Qué es\nToda persona trabajadora tiene derecho a vacaciones pagadas después de un tiempo de trabajo continuo.\n\n## A quién aplica\nA todas las personas trabajadoras con contrato, sin importar si es de tiempo completo o parcial.\n\n## Cómo se calcula / cuánto\nCorresponden dos semanas de vacaciones por cada cincuenta semanas de trabajo continuo, que son doce días más dos días de descanso como mínimo. El monto se paga con el salario promedio de las últimas cincuenta semanas, incluidas las horas extra.\n\n## Fecha límite\nEl patrono debe darlas dentro de las quince semanas posteriores a cumplirse las cincuenta semanas.\n\n## Siguiente paso\nLlevar un registro de la fecha en que cada persona cumple cincuenta semanas y acordar con ella las fechas de disfrute.\n\n## Errores comunes\n- Dar las vacaciones sin pagarlas con el promedio correcto.\n- No contar el sábado como día hábil.\n- Dejar acumular años sin darlas."
   }
 ]

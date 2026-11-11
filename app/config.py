@@ -31,7 +31,7 @@ def _cargar_env() -> None:
 
 _cargar_env()
 
-# --- Tasas (fuente: datos del enunciado del proyecto, 2026; PENDIENTE de validar con contador) ---
+# --- Tasas (2026; coinciden con la tabla de cuotas publicada por la CCSS en ccss.sa.cr/patronos) ---
 TASA_CCSS_PATRONAL = 0.2683          # CCSS patronal 2026: 26.83 %
 TASA_CCSS_PATRONAL_SIN_INA = 0.2533  # 25.33 % si el patrono tiene menos de 5 trabajadores (no paga INA)
 UMBRAL_EMPLEADOS_INA = 5             # desde 5 trabajadores se paga INA
@@ -65,7 +65,8 @@ USAR_TIER_GRATUITO = True
 PRECIO_USD_MILLON_ENTRADA = 0.30
 PRECIO_USD_MILLON_SALIDA = 2.50
 
-CONTACTO_HUMANO = "contador@kontia.example (TODO: poner el contacto real del equipo)"
+# Contacto de ejemplo del prototipo; no es un correo real.
+CONTACTO_HUMANO = "contador@kontia.example"
 
 PALABRAS_SENSIBLES = [
     "despido", "despedir", "despedí", "liquidación", "liquidacion", "cesantía", "cesantia",

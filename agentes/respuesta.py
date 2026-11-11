@@ -124,7 +124,7 @@ def _mock(fichas: list[dict], analisis: Analisis) -> Resultado:
         if analisis.requiere_calculo:
             texto += " Para calcular un monto exacto, indicame el salario mensual y, si aplica, la fecha de ingreso."
         limite = _seccion(ficha, "Fecha límite")
-        if limite and "TODO" not in limite:
+        if limite:
             texto += f" Fecha límite: {_recortar(limite, 20)}"
     r.respuesta = texto
     r.siguiente_paso = _recortar(_seccion(ficha, "Siguiente paso"), 40) or "Consultá con un contador."

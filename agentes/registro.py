@@ -38,7 +38,7 @@ CREATE TABLE IF NOT EXISTS derivaciones (
     interaction_id INTEGER NOT NULL,
     contacto TEXT NOT NULL,
     consentimiento_ts TEXT NOT NULL,
-    estado TEXT NOT NULL DEFAULT 'pendiente'
+    estado TEXT NOT NULL DEFAULT 'por_contactar'
 );
 """
 
@@ -92,7 +92,7 @@ def guardar_derivacion(interaction_id: int, contacto: str) -> int:
     ahora = _ahora()
     with _conexion() as con:
         cur = con.execute(
-            "INSERT INTO derivaciones (interaction_id, contacto, consentimiento_ts, estado) VALUES (?,?,?, 'pendiente')",
+            "INSERT INTO derivaciones (interaction_id, contacto, consentimiento_ts, estado) VALUES (?,?,?, 'por_contactar')",
             (interaction_id, contacto, ahora),
         )
         return cur.lastrowid
