@@ -32,12 +32,12 @@ def _analizar_mock(mensaje: str) -> Analisis:
         riesgo = "bajo"
         if "aguinaldo" in t:
             tema = Tema.aguinaldo
-        elif any(p in t for p in ("ccss", "cargas", "patronal", "planilla", "seguro social")):
-            tema = Tema.ccss
-        elif any(p in t for p in ("hacienda", "tribu", "renta", "iva")):
-            tema = Tema.hacienda
-        elif any(p in t for p in ("ins ", "riesgos del trabajo", "poliza")):
+        elif any(p in t for p in ("ins ", "riesgos del trabajo", "poliza", "rt virtual", "accidente", "se cayo")):
             tema = Tema.ins
+        elif any(p in t for p in ("ccss", "cargas", "patronal", "planilla", "seguro social", "incapacit", "asegur")):
+            tema = Tema.ccss
+        elif any(p in t for p in ("hacienda", "tribu", "renta", "factura", "rut ", "retener", "retencion", "simplificado")) or re.search(r"\biva\b", t):
+            tema = Tema.hacienda
         else:
             tema = Tema.otro
 
