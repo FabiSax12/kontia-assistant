@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: kontia-asistente
+    runtime: docker
+    plan: starter            # el disco persistente requiere un plan de pago
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false          # se carga a mano en el panel de Render
+      - key: MODELO_ANALISIS
+        sync: false
+      - key: MODELO_RESPUESTA
+        sync: false
+      - key: UMBRAL_SIMILITUD
+        value: "0.45"
+      - key: TIMEOUT_S
+        value: "10"
+    disk:
+      name: kontia-data
+      mountPath: /app/data
+      sizeGB: 1

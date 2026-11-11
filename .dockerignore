@@ -1,0 +1,7 @@
+venv/
+.git/
+.env
+data/*.db
+data/indice.npz
+__pycache__/
+tests/resultados_*.csv
