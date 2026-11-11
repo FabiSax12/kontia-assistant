@@ -90,7 +90,8 @@ def generar(modelo: str, contenidos, configuracion: types.GenerateContentConfig,
         if restante <= 0.5:
             raise LLMNoDisponible("Tiempo agotado antes de llamar a Gemini")
         cfg = configuracion.model_copy(deep=True)
-        cfg.http_options = types.HttpOptions(timeout=int(restante * 1000))
+        # Gemini exige un deadline HTTP de al menos 10 s; el tope total lo impone main.py con wait_for
+        cfg.http_options = types.HttpOptions(timeout=int(max(restante, 10) * 1000))
         if quitar_thinking:
             cfg.thinking_config = None
         try:

@@ -25,7 +25,7 @@ make dev              # servidor en http://localhost:8000
 - **Con Gemini**: poné la key en `.env`. Si `MODELO_ANALISIS` y `MODELO_RESPUESTA` están vacíos, la app consulta `client.models.list()` y elige un Flash-Lite (análisis) y un Flash (respuesta).
 - **Evaluación**: con el servidor corriendo, `make eval` corre `tests/escenarios.yaml` contra `/api/chat`, imprime las métricas y guarda un CSV en `tests/` para que el contador marque si cada respuesta es correcta.
 
-> **Gemini y el tier gratuito**: los nombres de modelo y los límites gratuitos cambian. Confirmalos en [Google AI Studio](https://aistudio.google.com) y ajustá `.env` si hace falta. Ante 429 o 503 la app reintenta con backoff (máx. 2 veces dentro del timeout de 10 s); si se agota, responde con un mensaje amable y contacto humano. `PAUSA_EVAL_S` (default 4) separa los escenarios de `make eval` para no pasarse de la cuota.
+> **Gemini y el tier gratuito**: los nombres de modelo y los límites gratuitos cambian. Confirmalos en [Google AI Studio](https://aistudio.google.com) y ajustá `.env` si hace falta. Ante 429 o 503 la app reintenta con backoff (máx. 2 veces dentro del timeout de 20 s); si se agota, responde con un mensaje amable y contacto humano. `PAUSA_EVAL_S` (default 4) separa los escenarios de `make eval` para no pasarse de la cuota.
 
 ## Aviso de privacidad (piloto)
 
@@ -58,7 +58,7 @@ flowchart LR
     REG --> U
 ```
 
-Son 4 agentes (`agentes/`) y solo 2 llamadas al LLM por consulta. El orquestador (`app/orquestador.py`) tiene un presupuesto de 10 s; si se pasa, devuelve un mensaje amable con contacto humano, nunca un error crudo.
+Son 4 agentes (`agentes/`) y solo 2 llamadas al LLM por consulta. El orquestador (`app/orquestador.py`) tiene un presupuesto de 20 s (`TIMEOUT_S`); si se pasa, devuelve un mensaje amable con contacto humano, nunca un error crudo.
 
 | Módulo | Qué hace |
 |---|---|
