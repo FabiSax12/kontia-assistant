@@ -3,9 +3,9 @@ id: ccss-cargas-patronales-2026
 titulo: Cargas sociales de la CCSS 2026
 tema: ccss
 sensible: false
-fuente_oficial: TODO enlace oficial de la CCSS sobre cuotas obrero-patronales
-fecha_revision: 2026-01-01
-revisado_por: PENDIENTE
+fuente_oficial: "https://www.ccss.sa.cr/patronos"
+fecha_revision: 2026-11-10
+revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional)"
 ---
 
 ## Qué es
@@ -18,14 +18,15 @@ A todo patrono con personas trabajadoras en planilla.
 - Cuota patronal 2026: 26.83 % del salario bruto.
 - Si el patrono tiene menos de 5 trabajadores, la cuota patronal es 25.33 %, porque no paga INA.
 - Cuota obrera 2026: 10.83 % del salario bruto, que se rebaja a la persona trabajadora.
-- El riesgo del trabajo (INS) es aparte: 2 % por defecto, y varía según la actividad.
+- El seguro de riesgos del trabajo (INS) es aparte de la CCSS: su prima depende de la actividad y se consulta con el INS.
 
 ## Fecha límite
-TODO confirmar con la CCSS la fecha de pago de la planilla.
+La planilla se presenta del 26 de cada mes hasta el cuarto día hábil del mes siguiente, y la factura se paga entre el 16 y el 20 de ese mes (el día exacto lo indica la Oficina Virtual de la CCSS).
 
 ## Siguiente paso
-Revisar la planilla del mes, calcular patronal y obrera sobre el salario bruto y confirmar la fecha de pago con la CCSS.
+Revisar la planilla del mes, calcular patronal y obrera sobre el salario bruto y confirmar en la Oficina Virtual la fecha de pago.
 
 ## Errores comunes
 - Usar la tasa patronal completa cuando el patrono tiene menos de 5 trabajadores.
 - Olvidar que el INS es un cobro aparte de la CCSS.
+- Calcular las cuotas sobre el salario neto en lugar del bruto.
