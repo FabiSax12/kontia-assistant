@@ -1,6 +1,6 @@
 ---
 id: hacienda-rut-registros
-titulo: RUT actualizado y registros contables para Hacienda
+titulo: "RUT actualizado y registros contables para Hacienda"
 tema: hacienda
 sensible: false
 fuente_oficial: "https://www.hacienda.go.cr/docs/BeneficiosPymes4.pdf"
@@ -12,7 +12,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 El Registro Único Tributario (RUT) es la ficha de datos del contribuyente en Hacienda. Debe estar al día. Además hay que llevar registros contables y guardar los comprobantes.
 
 ## A quién aplica
-A todos los contribuyentes, en especial a las micro y pequeñas empresas.
+A los contribuyentes, en especial a las micro y pequeñas empresas.
 
 ## Cómo se calcula / cuánto
 No se calcula. Los registros contables dependen del régimen en que se esté inscrito.

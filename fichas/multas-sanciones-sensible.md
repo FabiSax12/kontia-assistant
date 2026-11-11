@@ -1,6 +1,6 @@
 ---
 id: multas-sanciones-sensible
-titulo: Multas y sanciones (caso sensible)
+titulo: "Multas y sanciones (caso sensible)"
 tema: despido
 sensible: true
 fuente_oficial: "https://www.ccss.sa.cr/patronos"

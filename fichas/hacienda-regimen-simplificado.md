@@ -1,6 +1,6 @@
 ---
 id: hacienda-regimen-simplificado
-titulo: Régimen de tributación simplificada para pequeños negocios
+titulo: "Régimen de tributación simplificada para pequeños negocios"
 tema: hacienda
 sensible: false
 fuente_oficial: "https://www.hacienda.go.cr/docs/RequisitosParaOptarPorElRegimenTributacionSimplificada.pdf"
@@ -9,7 +9,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 ---
 
 ## Qué es
-Es un régimen para pequeños contribuyentes que declaran IVA y renta con cuotas basadas en factores por actividad y con declaraciones trimestrales, en lugar de las mensuales.
+El régimen simplificado (o tributación simplificada) es una opción para negocios pequeños con pocos empleados, por ejemplo un negocio con 3 empleados que quiere saber si puede acogerse. Sus contribuyentes declaran IVA y renta con cuotas basadas en factores por actividad y con declaraciones trimestrales, en lugar de las mensuales.
 
 ## A quién aplica
 A negocios que cumplen los requisitos: no más de cinco empleados sin contar al dueño o representante legal, un único establecimiento abierto al público, y límites de compras anuales y de activos fijos que se miden en salarios base.

@@ -1,6 +1,6 @@
 ---
 id: ccss-incapacidades
-titulo: Incapacidades por enfermedad: quién paga y cómo registrarlas
+titulo: "Incapacidades por enfermedad: quién paga y cómo registrarlas"
 tema: ccss
 sensible: false
 fuente_oficial: "https://www.ccss.sa.cr/tramites"

@@ -1,6 +1,6 @@
 ---
 id: ccss-inscripcion-patrono
-titulo: Inscripción de un patrono en la CCSS
+titulo: "Inscripción de un patrono en la CCSS"
 tema: ccss
 sensible: false
 fuente_oficial: "https://www.ccss.sa.cr/patronos"
@@ -9,7 +9,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 ---
 
 ## Qué es
-Todo patrono debe inscribirse en la CCSS para poder reportar a sus trabajadores y pagar las cuotas. Hay trámites separados para patrono físico, patrono jurídico y servicio doméstico.
+Cada patrono debe inscribirse en la CCSS para poder reportar a sus trabajadores y pagar las cuotas. Hay trámites separados para patrono físico, patrono jurídico y servicio doméstico.
 
 ## A quién aplica
 A quien empieza una actividad con personas trabajadoras o compra un negocio con personal.

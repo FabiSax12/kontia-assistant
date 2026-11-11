@@ -1,6 +1,6 @@
 ---
 id: jornada-horas-extra
-titulo: Jornada de trabajo y pago de horas extra
+titulo: "Jornada de trabajo y pago de horas extra"
 tema: otro
 sensible: false
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/index.html"

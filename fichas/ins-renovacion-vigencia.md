@@ -1,6 +1,6 @@
 ---
 id: ins-renovacion-vigencia
-titulo: Vigencia y renovación de la póliza del INS
+titulo: "Vigencia y renovación de la póliza del INS"
 tema: ins
 sensible: false
 fuente_oficial: "https://www.grupoins.com/media/rujlmpsb/rt-condiciones-generales-2025-v1-26-08-2025.pdf"

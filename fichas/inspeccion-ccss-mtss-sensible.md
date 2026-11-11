@@ -1,6 +1,6 @@
 ---
 id: inspeccion-ccss-mtss-sensible
-titulo: Inspección de la CCSS o del MTSS (caso sensible)
+titulo: "Inspección de la CCSS o del MTSS (caso sensible)"
 tema: despido
 sensible: true
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/index.html"

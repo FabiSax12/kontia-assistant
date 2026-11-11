@@ -1,6 +1,6 @@
 ---
 id: vacaciones-calculo
-titulo: Vacaciones de las personas trabajadoras
+titulo: "Vacaciones de las personas trabajadoras"
 tema: otro
 sensible: false
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/index.html"

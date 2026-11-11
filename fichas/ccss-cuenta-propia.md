@@ -1,6 +1,6 @@
 ---
-id: ccss-trabajador-independiente
-titulo: Seguro de trabajador independiente en la CCSS
+id: ccss-cuenta-propia
+titulo: "Seguro de la persona trabajadora por cuenta propia en la CCSS"
 tema: ccss
 sensible: false
 fuente_oficial: "https://www.ccss.sa.cr/tramites"
@@ -9,7 +9,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 ---
 
 ## Qué es
-Una persona que trabaja por cuenta propia, incluido el dueño de una PYME sin planilla, debe afiliarse a la CCSS como trabajador independiente para tener seguro de salud y pensión.
+Una persona que trabaja por cuenta propia, incluido el dueño de una PYME sin planilla, debe afiliarse a la CCSS como persona trabajadora por cuenta propia para tener seguro de salud y pensión.
 
 ## A quién aplica
 A personas con ingresos por cuenta propia, como profesionales liberales, comerciantes o dueños de un negocio unipersonal.
@@ -21,7 +21,7 @@ La cuota se calcula sobre el ingreso neto declarado, con porcentajes y una base 
 Los pagos son mensuales y siguen el calendario de la CCSS; consultar la fecha en la Oficina Virtual.
 
 ## Siguiente paso
-Entrar al catálogo de trámites de la CCSS y buscar Afiliación de Trabajador Independiente. Cuando el ingreso cambia, se hace el ajuste de ingresos netos cotizables.
+Entrar al catálogo de trámites de la CCSS y buscar Afiliación de Persona Trabajadora por Cuenta Propia. Cuando el ingreso cambia, se hace el ajuste de ingresos netos cotizables.
 
 ## Errores comunes
 - No actualizar el ingreso declarado cuando el negocio crece o baja.

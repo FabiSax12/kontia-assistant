@@ -3,9 +3,9 @@ id: tema-descriptivo-2026
 titulo: Título claro de la ficha
 tema: aguinaldo   # aguinaldo | ccss | hacienda | ins | despido | otro
 sensible: false   # true si el caso se debe derivar siempre a un contador
-fuente_oficial: TODO enlace oficial (CCSS, Hacienda, MTSS, INS)
-fecha_revision: 2026-01-01
-revisado_por: PENDIENTE
+fuente_oficial: "https://enlace-oficial-verificado.example (CCSS, Hacienda, MTSS, INS)"
+fecha_revision: 2026-11-10
+revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional)"
 ---
 
 ## Qué es

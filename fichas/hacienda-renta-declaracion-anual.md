@@ -1,6 +1,6 @@
 ---
 id: hacienda-renta-declaracion-anual
-titulo: Declaración anual del impuesto sobre la renta (utilidades)
+titulo: "Declaración anual del impuesto sobre la renta (utilidades)"
 tema: hacienda
 sensible: false
 fuente_oficial: "https://www.hacienda.go.cr/docs/CP11-2026.pdf"

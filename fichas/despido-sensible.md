@@ -1,6 +1,6 @@
 ---
 id: despido-sensible
-titulo: Despido (caso sensible)
+titulo: "Despido (caso sensible)"
 tema: despido
 sensible: true
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/index.html"

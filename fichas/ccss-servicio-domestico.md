@@ -1,6 +1,6 @@
 ---
 id: ccss-servicio-domestico
-titulo: Inscripción patronal de servicio doméstico en la CCSS
+titulo: "Inscripción patronal de servicio doméstico en la CCSS"
 tema: ccss
 sensible: false
 fuente_oficial: "https://www.ccss.sa.cr/tramites"

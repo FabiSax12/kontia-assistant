@@ -1,6 +1,6 @@
 ---
 id: aguinaldo-calculo
-titulo: Cálculo y pago del aguinaldo
+titulo: "Cálculo y pago del aguinaldo"
 tema: aguinaldo
 sensible: false
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/index.html"
@@ -24,7 +24,7 @@ Se paga a más tardar el 20 de diciembre.
 Confirmar la fecha de ingreso y los salarios de cada persona, calcular el monto y dejar el pago listo antes del 20 de diciembre.
 
 ## Errores comunes
-- Pagar el monto completo a quien no trabajó todo el periodo.
+- Pagar el monto completo a quien no trabajó el periodo completo.
 - Calcular el periodo con el año calendario en lugar del 1 de diciembre al 30 de noviembre.
 - Olvidar las horas extra y comisiones en la base.
 - Descontar cargas sociales del aguinaldo.

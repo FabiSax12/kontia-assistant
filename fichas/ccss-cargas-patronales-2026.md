@@ -1,6 +1,6 @@
 ---
 id: ccss-cargas-patronales-2026
-titulo: Cargas sociales de la CCSS 2026
+titulo: "Cargas sociales de la CCSS 2026"
 tema: ccss
 sensible: false
 fuente_oficial: "https://www.ccss.sa.cr/patronos"
@@ -12,7 +12,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 Las cargas sociales son los porcentajes del salario que el patrono y la persona trabajadora aportan a la CCSS.
 
 ## A quién aplica
-A todo patrono con personas trabajadoras en planilla.
+A cada patrono con personas trabajadoras en planilla.
 
 ## Cómo se calcula / cuánto
 - Cuota patronal 2026: 26.83 % del salario bruto.

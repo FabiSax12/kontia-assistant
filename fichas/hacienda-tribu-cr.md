@@ -1,6 +1,6 @@
 ---
 id: hacienda-tribu-cr
-titulo: TRIBU-CR: el sistema de Hacienda para declarar y pagar impuestos
+titulo: "TRIBU-CR: el sistema de Hacienda para declarar y pagar impuestos"
 tema: hacienda
 sensible: false
 fuente_oficial: "https://www.hacienda.go.cr/TRIBU-CR.html"

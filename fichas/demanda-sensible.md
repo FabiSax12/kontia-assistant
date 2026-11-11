@@ -1,6 +1,6 @@
 ---
 id: demanda-sensible
-titulo: Demanda laboral o judicial (caso sensible)
+titulo: "Demanda laboral o judicial (caso sensible)"
 tema: despido
 sensible: true
 fuente_oficial: "https://www.poder-judicial.go.cr"

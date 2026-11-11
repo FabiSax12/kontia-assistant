@@ -1,6 +1,6 @@
 ---
 id: ccss-planilla-presentacion
-titulo: Cómo presentar la planilla de la CCSS cada mes
+titulo: "Cómo presentar la planilla de la CCSS cada mes"
 tema: ccss
 sensible: false
 fuente_oficial: "https://www.ccss.sa.cr/patronos"
@@ -12,7 +12,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 La planilla es el reporte mensual de salarios de cada persona trabajadora que el patrono presenta a la CCSS. Con ella se genera la factura de cuotas obrero-patronales.
 
 ## A quién aplica
-A todo patrono inscrito en la CCSS, aunque en el mes no haya movimientos.
+A cada patrono inscrito en la CCSS, aunque en el mes no haya movimientos.
 
 ## Cómo se calcula / cuánto
 El sistema calcula las cuotas con los salarios reportados. Los pasos son presentar, modificar si hace falta y facturar. Si no se presenta a tiempo hay un recargo de 2 % sobre el seguro de salud y 2 % sobre el IVM. Si se presenta pero no se factura, el sistema factura de oficio al quinto día hábil.

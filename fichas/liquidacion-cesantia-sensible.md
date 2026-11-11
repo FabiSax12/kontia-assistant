@@ -1,6 +1,6 @@
 ---
 id: liquidacion-cesantia-sensible
-titulo: Liquidación, preaviso y cesantía (caso sensible)
+titulo: "Liquidación, preaviso y cesantía (caso sensible)"
 tema: despido
 sensible: true
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/index.html"

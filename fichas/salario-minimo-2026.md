@@ -1,6 +1,6 @@
 ---
 id: salario-minimo-2026
-titulo: Salario mínimo del sector privado
+titulo: "Salario mínimo del sector privado"
 tema: otro
 sensible: false
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/salarios/salario_minimo.html"
@@ -9,10 +9,10 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 ---
 
 ## Qué es
-El Consejo Nacional de Salarios fija los salarios mínimos del sector privado según la ocupación. Pagar menos de ese mínimo no está permitido.
+El salario mínimo es lo menos que se le puede pagar legalmente a una persona trabajadora en una empresa privada. El Consejo Nacional de Salarios fija los salarios mínimos del sector privado según la ocupación. Pagar menos de ese mínimo no está permitido.
 
 ## A quién aplica
-A todos los patronos del sector privado, por jornada o a destajo.
+A los patronos del sector privado, por jornada o a destajo.
 
 ## Cómo se calcula / cuánto
 Los montos por categoría se consultan en el panel de salarios mínimos del MTSS. Esta ficha no trae montos para 2026 porque la página oficial no los publica en texto. Para 2027, el MTSS anunció en octubre de 2026 un aumento de 1.70 % para el sector privado.

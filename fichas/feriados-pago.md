@@ -1,6 +1,6 @@
 ---
 id: feriados-pago
-titulo: Pago de los días feriados
+titulo: "Pago de los días feriados"
 tema: otro
 sensible: false
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/index.html"
@@ -12,10 +12,10 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 Los feriados son días de descanso que pueden ser de pago obligatorio o de pago no obligatorio. La forma en que se paga el salario cambia las reglas.
 
 ## A quién aplica
-A todos los patronos del sector privado.
+A los patronos del sector privado.
 
 ## Cómo se calcula / cuánto
-Con pago mensual o quincenal, todos los feriados se pagan, se trabajen o no. Si la persona trabaja el feriado, se suma un salario sencillo para llegar al pago doble. Con pago semanal fuera del comercio, solo se pagan los feriados de pago obligatorio aunque no se trabajen.
+Con pago mensual o quincenal, los feriados se pagan, se trabajen o no. Si la persona trabaja el feriado, se suma un salario sencillo para llegar al pago doble. Con pago semanal fuera del comercio, solo se pagan los feriados de pago obligatorio aunque no se trabajen.
 
 ## Fecha límite
 Los feriados de cada año los publica el MTSS en su calendario.

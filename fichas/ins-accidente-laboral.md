@@ -1,6 +1,6 @@
 ---
 id: ins-accidente-laboral
-titulo: Qué hacer si una persona trabajadora sufre un accidente laboral
+titulo: "Qué hacer si una persona trabajadora sufre un accidente laboral"
 tema: ins
 sensible: false
 fuente_oficial: "https://www.grupoins.com/media/rujlmpsb/rt-condiciones-generales-2025-v1-26-08-2025.pdf"
@@ -12,7 +12,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 Cuando ocurre un accidente o una enfermedad por el trabajo, el patrono debe avisar al INS con el formulario de aviso de accidente o enfermedad. Con ese aviso se da la orden de atención médica.
 
 ## A quién aplica
-A todo patrono con una persona trabajadora que sufre un riesgo del trabajo.
+A cada patrono con una persona trabajadora que sufre un riesgo del trabajo.
 
 ## Cómo se calcula / cuánto
 No se calcula aquí. El INS determina las prestaciones médicas y los pagos por incapacidad.

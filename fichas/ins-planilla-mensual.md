@@ -1,6 +1,6 @@
 ---
 id: ins-planilla-mensual
-titulo: Planilla mensual de riesgos del trabajo en RT Virtual
+titulo: "Planilla mensual de riesgos del trabajo en RT Virtual"
 tema: ins
 sensible: false
 fuente_oficial: "https://www.grupoins.com/rt-virtual/presentacion-de-planillas-rt/"
@@ -12,7 +12,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 Cada mes el patrono reporta al INS, en el sistema RT Virtual, los trabajadores, los días laborados y los salarios pagados. Con eso el INS calcula la prima.
 
 ## A quién aplica
-A todo patrono con póliza de riesgos del trabajo.
+A cada patrono con póliza de riesgos del trabajo.
 
 ## Cómo se calcula / cuánto
 No se calcula aquí. El INS toma los salarios reportados y aplica la tarifa de la póliza. Los montos deben coincidir con los reportados a la CCSS.

@@ -1,6 +1,6 @@
 ---
 id: hacienda-factura-electronica
-titulo: Factura electrónica y comprobantes electrónicos
+titulo: "Factura electrónica y comprobantes electrónicos"
 tema: hacienda
 sensible: false
 fuente_oficial: "https://www.hacienda.go.cr/docs/ComprobantesElectronicos-GeneralidadesyVersion4.4.marzo2025.pdf"

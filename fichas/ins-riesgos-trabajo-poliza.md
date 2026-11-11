@@ -1,6 +1,6 @@
 ---
 id: ins-riesgos-trabajo-poliza
-titulo: Póliza de riesgos del trabajo del INS
+titulo: "Póliza de riesgos del trabajo del INS"
 tema: ins
 sensible: false
 fuente_oficial: "https://www.grupoins.com/seguros-para-personas/riesgos-del-trabajo/"
@@ -9,10 +9,10 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 ---
 
 ## Qué es
-El seguro de riesgos del trabajo cubre a las personas trabajadoras en caso de accidente o enfermedad por el trabajo. Es obligatorio para todo patrono. Si no hay póliza, el patrono paga las prestaciones que el INS habría pagado.
+El seguro de riesgos del trabajo cubre a las personas trabajadoras en caso de accidente o enfermedad por el trabajo. Es obligatorio para cada patrono. Si no hay póliza, el patrono paga las prestaciones que el INS habría pagado.
 
 ## A quién aplica
-A todo patrono con personas trabajadoras, incluido el dueño que se incluye en la planilla de la póliza.
+A cada patrono con personas trabajadoras, incluido el dueño que se incluye en la planilla de la póliza.
 
 ## Cómo se calcula / cuánto
 La prima la fija el INS según la actividad económica, el monto de los salarios y la siniestralidad. Esta ficha no trae un porcentaje fijo: la cotización se pide en el sitio del INS o con un intermediario de seguros.

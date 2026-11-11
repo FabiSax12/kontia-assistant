@@ -1,6 +1,6 @@
 ---
 id: embargo-sensible
-titulo: Embargo (caso sensible)
+titulo: "Embargo (caso sensible)"
 tema: despido
 sensible: true
 fuente_oficial: "https://www.poder-judicial.go.cr"

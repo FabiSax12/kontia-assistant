@@ -1,6 +1,6 @@
 ---
 id: hacienda-iva-declaracion
-titulo: Declaración mensual del IVA (formulario 150, antes D-104)
+titulo: "Declaración mensual del IVA (formulario 150, antes D-104)"
 tema: hacienda
 sensible: false
 fuente_oficial: "https://www.hacienda.go.cr/docs/BeneficiosPymes4.pdf"

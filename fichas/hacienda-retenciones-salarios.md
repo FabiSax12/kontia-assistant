@@ -1,6 +1,6 @@
 ---
 id: hacienda-retenciones-salarios
-titulo: Retenciones de renta sobre salarios
+titulo: "Retenciones de renta sobre salarios"
 tema: hacienda
 sensible: false
 fuente_oficial: "https://www.hacienda.go.cr/docs/RetencionesSobreDietasGratificacionesPrestacionesServiciosPersonales.pdf"

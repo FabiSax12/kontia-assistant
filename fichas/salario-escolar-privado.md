@@ -1,6 +1,6 @@
 ---
 id: salario-escolar-privado
-titulo: Salario escolar en una empresa privada
+titulo: "Salario escolar en una empresa privada"
 tema: otro
 sensible: false
 fuente_oficial: "https://www.mtss.go.cr/temas-laborales/index.html"
@@ -9,7 +9,7 @@ revisado_por: "Elaborada con IA (prototipo académico, sin revisión profesional
 ---
 
 ## Qué es
-El salario escolar es un ahorro que se retiene del salario y se paga en enero. Es una figura sobre todo del sector público. En el sector privado no hay una obligación general de pagarlo que esta ficha haya podido confirmar en una fuente oficial.
+El salario escolar es un ahorro que se retiene del salario y se paga en enero. Es una figura principalmente del sector público. En el sector privado no hay una obligación general de pagarlo que esta ficha haya podido confirmar en una fuente oficial.
 
 ## A quién aplica
 A patronos privados que lo pactaron en el contrato o por costumbre de la empresa, y a quienes se lo preguntan por comparar con el sector público.
