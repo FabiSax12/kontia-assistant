@@ -66,7 +66,7 @@ PRECIO_USD_MILLON_ENTRADA = 0.30
 PRECIO_USD_MILLON_SALIDA = 2.50
 
 # Contacto de ejemplo del prototipo; no es un correo real.
-CONTACTO_HUMANO = "contador@kontia.example"
+CONTACTO_HUMANO = "contador@kontia.com"
 
 PALABRAS_SENSIBLES = [
     "despido", "despedir", "despedí", "liquidación", "liquidacion", "cesantía", "cesantia",
