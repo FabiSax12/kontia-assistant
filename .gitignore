@@ -5,3 +5,4 @@ __pycache__/
 data/*.db
 data/indice.npz
 tests/resultados_*.csv
+.atl/
