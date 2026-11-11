@@ -12,6 +12,10 @@ from google.genai import errors, types
 from app import config
 
 
+# Modelos que rechazaron thinking_budget=0 (400): no se vuelve a enviar para no gastar cuota en el reintento.
+_sin_thinking: set[str] = set()
+
+
 class LLMNoDisponible(Exception):
     """Se agotaron los reintentos, el tiempo o la API falló de forma no recuperable."""
 
@@ -69,13 +73,18 @@ def _es_reintentable(e: Exception) -> bool:
     return isinstance(e, errors.APIError) and getattr(e, "code", None) in (429, 503)
 
 
+def cuota_diaria_agotada(e: Exception) -> bool:
+    """429 por cuota diaria (RPD): reintentar no sirve, la cuota vuelve en horas."""
+    return isinstance(e, errors.APIError) and getattr(e, "code", None) == 429 and "PerDay" in str(e)
+
+
 def generar(modelo: str, contenidos, configuracion: types.GenerateContentConfig, limite: float):
     """generate_content con backoff exponencial ante 429/503 (máx. 2 reintentos) dentro del límite de tiempo.
 
     'limite' es un instante de time.monotonic(). Lanza LLMNoDisponible si no se logra a tiempo.
     """
     intento = 0
-    quitar_thinking = False
+    quitar_thinking = modelo in _sin_thinking
     while True:
         restante = limite - time.monotonic()
         if restante <= 0.5:
@@ -94,7 +103,10 @@ def generar(modelo: str, contenidos, configuracion: types.GenerateContentConfig,
                 and not quitar_thinking
             ):
                 quitar_thinking = True  # el modelo no admite thinking_budget=0: reintenta sin eso
+                _sin_thinking.add(modelo)
                 continue
+            if cuota_diaria_agotada(e):
+                raise LLMNoDisponible(f"Cuota diaria de Gemini agotada para {modelo}") from e
             if _es_reintentable(e) and intento < config.MAX_REINTENTOS_API:
                 espera = 2**intento * 0.8
                 intento += 1
