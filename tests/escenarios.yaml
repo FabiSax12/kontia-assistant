@@ -1,4 +1,4 @@
-# Escenarios de evaluación. El equipo completa hasta 30.
+# Escenarios de evaluación (32). respuesta_contador queda vacío hasta que una persona contadora la escriba.
 # Campos: pregunta, tema_esperado, debe_derivar, ficha_esperada (id o null), monto_esperado (colones o null),
 #         respuesta_contador (la respuesta correcta según el contador; se llena a mano).
 - pregunta: "¿Cuánto pago de aguinaldo a una asistente que entró en marzo con ₡450 000?"
@@ -6,32 +6,221 @@
   debe_derivar: false
   ficha_esperada: aguinaldo-calculo
   monto_esperado: 337500
-  respuesta_contador: "TODO"
+  respuesta_contador: ""
 
 - pregunta: "¿Cuánto es la CCSS patronal de un salario de ₡600 000? Tengo 6 empleados."
   tema_esperado: ccss
   debe_derivar: false
   ficha_esperada: ccss-cargas-patronales-2026
   monto_esperado: 160980
-  respuesta_contador: "TODO"
+  respuesta_contador: ""
 
 - pregunta: "¿Cuándo tengo que pagar el aguinaldo?"
   tema_esperado: aguinaldo
   debe_derivar: false
   ficha_esperada: aguinaldo-calculo
   monto_esperado: null
-  respuesta_contador: "TODO"
+  respuesta_contador: ""
 
 - pregunta: "Quiero despedir a un empleado, ¿cuánto le debo?"
   tema_esperado: despido
   debe_derivar: true
   ficha_esperada: null
   monto_esperado: null
-  respuesta_contador: "TODO"
+  respuesta_contador: ""
 
 - pregunta: "Me llegó una inspección de la CCSS y me quieren poner una multa, ¿qué hago?"
   tema_esperado: despido
   debe_derivar: true
   ficha_esperada: null
   monto_esperado: null
-  respuesta_contador: "TODO"
+  respuesta_contador: ""
+
+- pregunta: "¿Cómo inscribo mi negocio como patrono en la CCSS?"
+  tema_esperado: ccss
+  debe_derivar: false
+  ficha_esperada: ccss-inscripcion-patrono
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Hasta qué día puedo presentar la planilla de la CCSS?"
+  tema_esperado: ccss
+  debe_derivar: false
+  ficha_esperada: ccss-planilla-presentacion
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Qué día me toca pagar la planilla de la CCSS de octubre?"
+  tema_esperado: ccss
+  debe_derivar: false
+  ficha_esperada: ccss-pago-planilla-fechas
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "Un empleado se incapacitó por enfermedad, ¿cuánto de su salario me toca pagar a mí?"
+  tema_esperado: ccss
+  debe_derivar: false
+  ficha_esperada: ccss-incapacidades
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "Trabajo por mi cuenta, ¿cómo me aseguro en la CCSS?"
+  tema_esperado: ccss
+  debe_derivar: false
+  ficha_esperada: ccss-cuenta-propia
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "Tengo una empleada doméstica, ¿tengo que inscribirme en la CCSS?"
+  tema_esperado: ccss
+  debe_derivar: false
+  ficha_esperada: ccss-servicio-domestico
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Tengo que sacar la póliza de riesgos del trabajo del INS para mis empleados?"
+  tema_esperado: ins
+  debe_derivar: false
+  ficha_esperada: ins-riesgos-trabajo-poliza
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Cuándo debo reportar la planilla mensual en RT Virtual del INS?"
+  tema_esperado: ins
+  debe_derivar: false
+  ficha_esperada: ins-planilla-mensual
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Se renueva sola la póliza del INS cada año?"
+  tema_esperado: ins
+  debe_derivar: false
+  ficha_esperada: ins-renovacion-vigencia
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "Un empleado se cayó en el trabajo, ¿en cuánto tiempo tengo que avisar al INS?"
+  tema_esperado: ins
+  debe_derivar: false
+  ficha_esperada: ins-accidente-laboral
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Tengo que pagar salario escolar a mis empleados de una empresa privada?"
+  tema_esperado: otro
+  debe_derivar: false
+  ficha_esperada: salario-escolar-privado
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Cuántos días de vacaciones le corresponden a un empleado?"
+  tema_esperado: otro
+  debe_derivar: false
+  ficha_esperada: vacaciones-calculo
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Cuánto debo pagar por una hora extra?"
+  tema_esperado: otro
+  debe_derivar: false
+  ficha_esperada: jornada-horas-extra
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Cuál es el salario mínimo que debo pagar en mi empresa?"
+  tema_esperado: otro
+  debe_derivar: false
+  ficha_esperada: salario-minimo-2026
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Cómo pago el día feriado a un empleado que cobra mensual?"
+  tema_esperado: otro
+  debe_derivar: false
+  ficha_esperada: feriados-pago
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Qué es TRIBU-CR y cómo entro a declarar?"
+  tema_esperado: hacienda
+  debe_derivar: false
+  ficha_esperada: hacienda-tribu-cr
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Cuándo vence la declaración del IVA y qué formulario uso?"
+  tema_esperado: hacienda
+  debe_derivar: false
+  ficha_esperada: hacienda-iva-declaracion
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Hasta cuándo puedo presentar la declaración de renta de mi sociedad?"
+  tema_esperado: hacienda
+  debe_derivar: false
+  ficha_esperada: hacienda-renta-declaracion-anual
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "Soy un negocio pequeño con 3 empleados, ¿puedo estar en el régimen simplificado?"
+  tema_esperado: hacienda
+  debe_derivar: false
+  ficha_esperada: hacienda-regimen-simplificado
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Tengo que retener renta del salario de mis empleados y cuándo lo declaro?"
+  tema_esperado: hacienda
+  debe_derivar: false
+  ficha_esperada: hacienda-retenciones-salarios
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Qué versión de factura electrónica debo usar?"
+  tema_esperado: hacienda
+  debe_derivar: false
+  ficha_esperada: hacienda-factura-electronica
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Cuántos años debo guardar las facturas de mi negocio y el RUT?"
+  tema_esperado: hacienda
+  debe_derivar: false
+  ficha_esperada: hacienda-rut-registros
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "Me llegó una notificación de embargo de una cuenta de la empresa, ¿qué hago?"
+  tema_esperado: despido
+  debe_derivar: true
+  ficha_esperada: null
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "Un exempleado me puso una demanda laboral, ¿cómo respondo?"
+  tema_esperado: despido
+  debe_derivar: true
+  ficha_esperada: null
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "Voy a liquidar a una trabajadora que renunció, ¿cuánto de cesantía le toca?"
+  tema_esperado: despido
+  debe_derivar: true
+  ficha_esperada: null
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Cómo constituyo una sociedad anónima y abro una cuenta en el extranjero?"
+  tema_esperado: otro
+  debe_derivar: true
+  ficha_esperada: null
+  monto_esperado: null
+  respuesta_contador: ""
+
+- pregunta: "¿Me recomendás en qué criptomoneda invertir las ganancias de mi negocio?"
+  tema_esperado: otro
+  debe_derivar: true
+  ficha_esperada: null
+  monto_esperado: null
+  respuesta_contador: ""
