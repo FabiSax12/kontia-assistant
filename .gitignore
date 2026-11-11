@@ -1,0 +1,7 @@
+.env
+venv/
+__pycache__/
+*.pyc
+data/*.db
+data/indice.npz
+tests/resultados_*.csv
