@@ -1,1 +1,53 @@
-<h1>Kontia</h1>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Asistente Kontia</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="encabezado">
+    <h1>Asistente Kontia</h1>
+    <p>Orientación sobre CCSS, Hacienda, INS y aguinaldo para tu PYME</p>
+  </header>
+
+  <main id="chat" class="chat" aria-live="polite"></main>
+
+  <form id="formulario" class="entrada">
+    <input id="mensaje" type="text" maxlength="800" autocomplete="off"
+           placeholder="Escribí tu consulta (sin nombres ni datos de terceros)" required>
+    <button type="submit" id="enviar">Enviar</button>
+  </form>
+
+  <dialog id="privacidad" class="modal">
+    <h2>Antes de empezar</h2>
+    <ul>
+      <li><strong>Qué se guarda:</strong> tu pregunta (con datos personales ocultos), el tema, la respuesta dada y el tiempo que tardó. No pedimos registro.</li>
+      <li><strong>Datos ocultos:</strong> cédulas, cuentas IBAN, teléfonos y correos se reemplazan automáticamente antes de procesar y de guardar. Aun así, no escribas nombres ni datos de terceros.</li>
+      <li><strong>Proveedor de IA fuera del país:</strong> en este piloto tus consultas se procesan con el tier gratuito de Google Gemini. Ahí Google puede usar las entradas y salidas para mejorar sus productos, y personas revisoras pueden leerlas. En producción se usaría un plan pago, donde los datos no se usan para eso.</li>
+      <li><strong>Orientación general:</strong> no sustituye la revisión de un contador.</li>
+    </ul>
+    <button id="aceptar" type="button">Entiendo y acepto</button>
+  </dialog>
+
+  <dialog id="contacto" class="modal">
+    <h2>Pedir revisión de un contador</h2>
+    <form id="form-contacto">
+      <label for="dato-contacto">Tu correo o teléfono</label>
+      <input id="dato-contacto" type="text" required minlength="3">
+      <label class="check">
+        <input id="acepto" type="checkbox">
+        Acepto que Kontia guarde este dato para que un contador me contacte sobre mi consulta.
+      </label>
+      <p id="msg-contacto" class="nota" role="status"></p>
+      <div class="acciones">
+        <button type="button" id="cancelar-contacto" class="secundario">Cancelar</button>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
