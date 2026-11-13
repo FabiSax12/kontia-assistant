@@ -6,3 +6,7 @@ data/*.db
 data/indice.npz
 tests/resultados_*.csv
 .atl/
+
+# Frontend
+frontend/node_modules/
+static/

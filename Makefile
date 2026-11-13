@@ -13,4 +13,13 @@ dev:
 eval:
 	$(PY) tests/eval.py
 
-.PHONY: install indexar dev eval
+front-install:
+	cd frontend && pnpm install
+
+front-dev:
+	cd frontend && pnpm dev
+
+front-build:
+	cd frontend && pnpm build
+
+.PHONY: install indexar dev eval front-install front-dev front-build

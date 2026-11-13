@@ -27,6 +27,18 @@ make dev              # servidor en http://localhost:8000
 
 > **Gemini y el tier gratuito**: los nombres de modelo y los límites gratuitos cambian. Confirmalos en [Google AI Studio](https://aistudio.google.com) y ajustá `.env` si hace falta. Ante 429 o 503 la app reintenta con backoff (máx. 2 veces dentro del timeout de 20 s); si se agota, responde con un mensaje amable y contacto humano. `PAUSA_EVAL_S` (default 4) separa los escenarios de `make eval` para no pasarse de la cuota.
 
+## Frontend (React + Vite)
+
+La interfaz vive en `frontend/` (React, TypeScript, Tailwind v4, shadcn/ui y componentes de [AI Elements](https://elements.ai-sdk.dev)). Requiere Node 22+ y pnpm. El build se genera en `static/` (ignorado por git), que FastAPI sirve en `/`.
+
+```bash
+make front-install   # pnpm install
+make front-build     # compila a static/ (hace falta antes de `make dev`)
+make front-dev       # Vite en http://localhost:5173 con proxy /api -> :8000 (el backend debe estar corriendo)
+```
+
+El Dockerfile compila el frontend en una etapa `node`, así que no hace falta commitear `static/`.
+
 ## Aviso de privacidad (piloto)
 
 En el piloto las consultas se procesan con el **tier gratuito de Gemini**, donde Google puede usar las entradas y salidas para mejorar sus productos y personas revisoras pueden leerlas. Por eso se ocultan cédulas, cuentas, teléfonos y correos, y se le pide a la persona usuaria no escribir nombres ni datos de terceros. En producción se usaría un plan pago, donde los datos no se usan para eso. El modal del frontend dice esto y debe aceptarse antes de escribir.

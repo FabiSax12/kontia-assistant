@@ -5,3 +5,5 @@ data/*.db
 data/indice.npz
 __pycache__/
 tests/resultados_*.csv
+frontend/node_modules/
+static/
